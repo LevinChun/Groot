@@ -12,7 +12,7 @@ config.read(f'../main/config/config.ini')
 
 bot = discord.Bot()
 
-TEST_GUILD = 707869808129081364
+TEST_GUILD = GUILD_ID
 
 @bot.event
 async def on_ready():
